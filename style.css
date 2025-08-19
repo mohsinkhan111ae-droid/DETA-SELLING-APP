@@ -1,0 +1,85 @@
+
+body {
+  background: #111;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.container {
+  background: #1c1c2b;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  width: 350px;
+}
+h2 {
+  margin: 0 0 10px;
+  color: #f8f8f8;
+}
+.rate {
+  font-size: 14px;
+  color: #ccc;
+  margin-bottom: 20px;
+}
+.stats {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.card {
+  background: #2a2a3d;
+  padding: 15px;
+  border-radius: 10px;
+  width: 45%;
+}
+.card h3 {
+  margin: 0;
+  font-size: 20px;
+  color: #ffd700;
+}
+.card p {
+  margin: 5px 0 0;
+  font-size: 12px;
+  color: #bbb;
+}
+.progress {
+  background: #333;
+  border-radius: 10px;
+  height: 15px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+#progressBar {
+  background: linear-gradient(90deg, #00ff88, #00aaff);
+  height: 100%;
+  width: 0%;
+}
+.buttons button {
+  margin: 5px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+#startBtn {
+  background: #28a745;
+  color: white;
+}
+#stopBtn {
+  background: #dc3545;
+  color: white;
+}
+#resetBtn {
+  background: #ffc107;
+  color: black;
+}
+.note {
+  font-size: 12px;
+  color: #888;
+  margin-top: 15px;
+}

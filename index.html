@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Live Data Selling Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>Live Data Selling</h2>
+    <p class="rate">Rate: 500 MB = ₹1000 → ₹2.00/MB. Selling at 20 MB/sec → ₹40/sec</p>
+
+    <div class="stats">
+      <div class="card">
+        <h3 id="dataSold">0 MB</h3>
+        <p>Session Data Sold</p>
+      </div>
+      <div class="card">
+        <h3 id="earnings">₹0.00</h3>
+        <p>Session Earnings</p>
+      </div>
+    </div>
+
+    <div class="progress">
+      <div id="progressBar"></div>
+    </div>
+
+    <div class="buttons">
+      <button id="startBtn">▶ Start Selling</button>
+      <button id="stopBtn">⏸ Stop & Withdraw</button>
+      <button id="resetBtn">🔄 Reset</button>
+    </div>
+
+    <p class="note">This is a demo UI. Earnings update live while selling.</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
